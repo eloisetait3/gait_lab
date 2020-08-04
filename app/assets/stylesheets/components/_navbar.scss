@@ -1,12 +1,26 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+#navbar {
+  background-color: white; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+/* Style the navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #3B6370;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+#navbar #brand-name {
+	color: #24557F;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: #24557F;
 }
