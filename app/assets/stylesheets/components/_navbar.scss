@@ -1,26 +1,22 @@
 #navbar {
-  background-color: white; /* Black background color */
-  position: fixed; /* Make it stick/fixed */
+  background-color: white; 
+  position: fixed; 
   top: 0; /* Stay on top */
-  width: 100%; /* Full width */
+  width: 100%; 
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
-}
-
-/* Style the navbar links */
-#navbar a {
-  float: left;
-  display: block;
-  color: #3B6370;
   text-align: center;
-  padding: 15px;
-  text-decoration: none;
+  
+  #nav-content {
+    padding: 15px;
+  }
+
+  a {
+    margin: 25px;
+    color: #24557F;
+  }
 }
 
-#navbar #brand-name {
-	color: #24557F;
-}
-
-#navbar a:hover {
-  background-color: #ddd;
+#navbar h1 {
   color: #24557F;
 }
+
