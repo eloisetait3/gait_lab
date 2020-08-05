@@ -5,6 +5,7 @@
   width: 100%; 
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
   text-align: center;
+  z-index: 2;
   
   #nav-content {
     padding: 15px;
@@ -19,4 +20,12 @@
 #navbar h1 {
   color: #24557F;
 }
+
+.disappear {
+  color:none; 
+  flex-shrink: 3;
+}
+
+
+
 
