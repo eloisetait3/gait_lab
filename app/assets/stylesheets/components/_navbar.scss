@@ -1,23 +1,35 @@
 #navbar {
-  background-color: white;
   position: fixed;
-  top: 0; /* Stay on top */
   width: 100%;
-  transition: top 0.3s; /* Transition effect when sliding down (and up) */
-  text-align: center;
-  z-index: 2;
-
-  #nav-content {
-    padding: 15px;
-  }
+  top: 0;
+  transition: 2s; 
+  z-index: 3;
+  padding: 30px 10px;
 
   a {
-    margin: 25px;
     color: #24557F;
   }
 }
 
-#navbar h1 {
-  color: #24557F;
+#nav-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
+
+
+#nav-title {
+  color: #24557F;
+  font-size: 60px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+// Features to be added on scroll feature 
+
+.transformed {
+  color: white;
+
+}
+
 
