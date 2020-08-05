@@ -2,7 +2,7 @@
 // Specific CSS for your home-page
 
 .banner {
-  height: 600px;
+  height: 100vh;
   background-size: cover;
   background-position: center;
   padding: 0;
@@ -37,6 +37,11 @@
 .banner h3 {
   font-size: 32px;
   color: #24557F;
-  font-weight: thin;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300 ;
 
+}
+
+.how-it-works {
+  color: #24557F;
 }
