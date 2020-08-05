@@ -1,5 +1,5 @@
 #navbar {
-  background-color: white;
+  background-color: hidden;
   position: fixed;
   top: 0; /* Stay on top */
   width: 100%;
@@ -19,6 +19,8 @@
 
 #navbar h1 {
   color: #24557F;
+  font-size: 60px;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .disappear {
