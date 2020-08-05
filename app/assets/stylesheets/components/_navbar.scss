@@ -1,12 +1,12 @@
 #navbar {
-  background-color: white; 
-  position: fixed; 
+  background-color: white;
+  position: fixed;
   top: 0; /* Stay on top */
-  width: 100%; 
+  width: 100%;
   transition: top 0.3s; /* Transition effect when sliding down (and up) */
   text-align: center;
   z-index: 2;
-  
+
   #nav-content {
     padding: 15px;
   }

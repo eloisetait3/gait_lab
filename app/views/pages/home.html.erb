@@ -1,6 +1,6 @@
 <!-- Landing Page Image start -->
 
-<div class="banner" style="background-image: linear-gradient(180deg, rgba(196, 196, 196, 0.30) 0%, rgba(255, 255, 255, 1) 300%), url(<%= image_path 'feet.jpg' %>);">
+<div class="banner" style="background-image: linear-gradient(180deg, rgba(196, 196, 196, 0.30) 0%, rgba(255, 255, 255, 1) 300%), url(<%= image_path 'cast.jpg' %>); filter: brightness(115%);">
   <div class="container text-center">
     <div class="landing-text">
       <h1 class="mb-4">The Gait Lab</h1>
@@ -15,6 +15,28 @@
 <!-- Landing Page Image finish -->
 
 <!-- Services start -->
+<div class="d-flex justify-content-around">
+  <h2 class="text-center p-2 mt-4 mb-2 how-it-works" >Services</h2>
+</div>
+<div>
+  <div class="banner-cards d-flex justfy-content-around">
+    <div class="banner-card">
+      <%= image_tag "icon1.png", alt: "alttext" %>
+      <h4>Health Insurance</h4>
+      <p>See which insurance companies we deal with </p>
+    </div>
+    <div class="banner-card">
+      <%= image_tag "icon2.png", alt: "alttext" %>
+      <h4>Specialist Adolescent Care</h4>
+      <p>Book an appointment </p>
+    </div>
+    <div class="banner-card">
+      <%= image_tag "icon3.png", alt: "alttext" %>
+      <h4>Biomechanical Analysis</h4>
+      <p>Treatment of foot problems and lower limb injuries</p>
+    </div>
+  </div>
+</div>
 <!-- Services finish -->
 
 <!-- Meet the team start -->
